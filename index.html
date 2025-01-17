@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login & Sign Up</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <h1>Sign Up</h1>
+        <p id="error-message"></p>
+        <form id="form">
+            <div>
+                <label for="firstname-input">
+                    <i class='bx bxs-user'></i>
+                </label>
+                <input type="text" name="Firstname" id="firstname-input" placeholder="First Name">
+            </div>
+            <div>
+                <label for="lastname-input">
+                    <i class='bx bxs-user'></i>
+                </label>
+                <input type="text" name="Lastname" id="lastname-input" placeholder="Last Name">
+            </div>
+            <div>
+                <label for="email-input">
+                    <i class='bx bx-envelope'></i>
+                </label>
+                <input type="email" name="email" id="email-input" placeholder="Email">
+            </div>
+            <div>
+                <label for="password-input">
+                    <i class='bx bxs-lock'></i>
+                </label>
+                <input type="password" name="password" id="password-input" placeholder="Password">
+            </div>
+            <div>
+                <label for="repeat-password">
+                    <i class='bx bxs-lock'></i>
+                </label>
+                <input type="password" name="repeat-password" id="repeat-password" placeholder="Repeat Password">
+            </div>
+            <button type="submit">Sign Up</button>
+        </form>
+        <p>Already have an Account? <a href="login.html">Login</a></p>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
